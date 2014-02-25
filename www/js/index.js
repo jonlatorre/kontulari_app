@@ -44,7 +44,7 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-
+        document.getElementById( "sysinfo" ).append(Sysinfo);
         console.log('Received Event: ' + id);
         
     }
