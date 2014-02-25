@@ -44,7 +44,7 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-        document.getElementById( "sysinfo" ).append("<p>hola hola hola</p>");
+        $( "#sysinfo" ).append("<p>hola hola hola</p>");
         console.log('Received Event: ' + id);
         
     }
