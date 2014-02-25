@@ -1,6 +1,6 @@
-# PhoneGap Build Starter Application
+# Prueba de PhoneGap para Kontulari.eu
 
-> A Hello World application to get started with PhoneGap Build.
+> Primera aplicación con PhoneGap Build.
 
 ## Usage
 
@@ -11,12 +11,6 @@
 ### Run Tests
 
     /www/spec.html
-
-### PhoneGap/Build
-
-Create a new app with the following repository:
-
-    https://github.com/phonegap/phonegap-start.git
 
 ## Updating the Application
 
