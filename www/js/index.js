@@ -45,7 +45,7 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-        $( "#sysinfo" ).append("<p>hola hola hola</p>");
+        $( "#sysinfo" ).html("<p>Tenemos <b>"+Sysinfo.memory.total+"</b> RAM </p>");
         console.log('Received Event: ' + id);
         
     }
