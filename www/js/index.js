@@ -45,7 +45,7 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
         
-        $("main").append("Hola mundo!!");
+        $("#main").append("Hola mundo!!");
         
 
         
