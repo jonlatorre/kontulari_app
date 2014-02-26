@@ -35,7 +35,6 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        console.log(Sysinfo);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -44,13 +43,10 @@ var app = {
         var receivedElement = parentElement.querySelector('.received');
 
         listeningElement.setAttribute('style', 'display:none;');
-        //receivedElement.setAttribute('style', 'display:block;');
-        //$( "#sysinfo" ).html("<p>Tenemos <b>"+Sysinfo.memory.total+"</b> RAM </p>");
-        //console.log('Received Event: ' + id);
-        $.get( "http://kontulari.eu", function( data ) {
-            alert( "Load was performed." );
-            $("main").html(data);
-        });
+        receivedElement.setAttribute('style', 'display:block;');
+        
+        $("main").html("Hola mundo!!");
+        
 
         
     }
